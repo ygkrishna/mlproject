@@ -1,0 +1,15 @@
+Open VS Code from cmd -> D:\mlproject\code .
+
+Venv using conda:
+1. conda create -p venv python==3.8 -y
+2. conda activate venv/
+
+Clone github:
+1. git init
+2. git commit -m "First Commit"
+3. git status
+4. git remote add origin https://github.com/ygkrishna/mlproject.git
+5. git remote -v
+6. git config --global user.email gopikrishnayadam@gmail.com
+7. git push -u origin main
+
