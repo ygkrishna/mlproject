@@ -3,6 +3,7 @@ Open VS Code from cmd -> D:\mlproject\code .
 Venv using conda:
 1. conda create -p venv python==3.8 -y
 2. conda activate venv/
+3. conda activate D:\mlproject\venv
 
 Clone github:
 1. git init
@@ -12,4 +13,9 @@ Clone github:
 5. git remote -v
 6. git config --global user.email gopikrishnayadam@gmail.com
 7. git push -u origin main
+
+
+## Python Command to run file if path issues occur:
+python -m src.components.data_ingestion  
+
 
